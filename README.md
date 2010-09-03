@@ -16,13 +16,15 @@ edges are directed
 Node - use Graph.node(), don't build your own,  See below
 
 ## Construction ##
-.node(name:String) <-- adds a new node to the graph and returns a reference
-.connect(u:Node,v:Node) <-- connects the two nodes
-.adj(n:Node) <-- returns the nodes adjacent to n
+
+* .node(name:String) <-- adds a new node to the graph and returns a reference
+* .connect(u:Node,v:Node) <-- connects the two nodes
+* .adj(n:Node) <-- returns the nodes adjacent to n
 
 ## Inspection ##
-.dfs() <-- perform a depth-first search on each node in the graph outputing
-           the pre and post-visit times for each to standard out
+.dfs()
+perform a depth-first search on each node in the graph outputing
+the pre and post-visit times for each to standard out
 
 ## Example Use ##
 
@@ -78,7 +80,8 @@ This will output the following (only showing output for A)
 
 
 ## Future Possibilities ##
-Add BFS support for shortest path checking
-Dijkstra support for route optimization
-Improved rendering of searches (a la ASCII art)
+
+* Add BFS support for shortest path checking
+* Dijkstra support for route optimization
+* Improved rendering of searches (a la ASCII art)
 
